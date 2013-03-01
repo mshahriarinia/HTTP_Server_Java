@@ -1,0 +1,38 @@
+>java Hotel 3333 localhost 4444
+Note: Please make sure the hotel host name and port number are properly set in the index.html file.
+
+
+index.html loaded.
+New Request: Reservation 1/1/2011 Account Number: 1 Zip Code: 1
+Response: BANK: IS OK. Account Number: 1 Zip Code: 1 Balance: 50<br>Room Number: 1<br>Confirmation Number: 1
+
+New Request: Reservation 1/1/2011 Account Number: 1 Zip Code: 1
+Response: User has already reseved a room for that date.
+
+New Request: Reservation 1/1/2011 Account Number: 1 Zip Code: 1
+Response: User has already reseved a room for that date.
+
+New Request: Cancelation 1/1/2011 Room Number: 1 Confirmation Number: 1
+Response: BANK: IS OK. Account Number: 1 Zip Code: 1 Balance: 100 Money RETURNED.
+
+New Request: Reservation 1/1/2011 Account Number: 1 Zip Code: 1
+Response: BANK: IS OK. Account Number: 1 Zip Code: 1 Balance: 50<br>Room Number: 1<br>Confirmation Number: 2
+
+New Request: Reservation 1/1/2011 Account Number: 1 Zip Code: 1
+Response: User has already reseved a room for that date.
+
+New Request: Cancelation 1/1/2011 Room Number: 1 Confirmation Number: 2
+Response: BANK: IS OK. Account Number: 1 Zip Code: 1 Balance: 100 Money RETURNED.
+
+New Request: Reservation 1/1/2011 Account Number: 1 Zip Code: 1
+Response: BANK: IS OK. Account Number: 1 Zip Code: 1 Balance: 50<br>Room Number: 1<br>Confirmation Number: 3
+
+New Request: Reservation 1/1/2011 Account Number: 1 Zip Code: 1
+Response: User has already reseved a room for that date.
+
+New Request: Reservation 2/1/2011 Account Number: 1 Zip Code: 1
+Response: BANK: IS OK. Account Number: 1 Zip Code: 1 Balance: 0<br>Room Number:1<br>Confirmation Number: 4
+
+New Request: Reservation 3/1/2011 Account Number: 1 Zip Code: 1
+Response: BANK: IS NOT OK. Not enough balance in bank account. Account Number: 1 Zip Code: 1 Balance: 0
+

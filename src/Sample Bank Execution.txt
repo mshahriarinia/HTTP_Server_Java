@@ -1,0 +1,27 @@
+>java Bank 4444
+New request: Reservation - Account No: 1 Zip Code: 1
+Account Number: 1 Zip Code: 1 Balance: 100
+Response: BANK: IS OK. Account Number: 1 Zip Code: 1 Balance: 50
+
+New request: Cancelation - Account Number: 1
+Response: BANK: IS OK. Account Number: 1 Zip Code: 1 Balance: 100
+
+New request: Reservation - Account No: 1 Zip Code: 1
+Account Number: 1 Zip Code: 1 Balance: 100
+Response: BANK: IS OK. Account Number: 1 Zip Code: 1 Balance: 50
+
+New request: Cancelation - Account Number: 1
+Response: BANK: IS OK. Account Number: 1 Zip Code: 1 Balance: 100
+
+New request: Reservation - Account No: 1 Zip Code: 1
+Account Number: 1 Zip Code: 1 Balance: 100
+Response: BANK: IS OK. Account Number: 1 Zip Code: 1 Balance: 50
+
+New request: Reservation - Account No: 1 Zip Code: 1
+Account Number: 1 Zip Code: 1 Balance: 50
+Response: BANK: IS OK. Account Number: 1 Zip Code: 1 Balance: 0
+
+New request: Reservation - Account No: 1 Zip Code: 1
+Account Number: 1 Zip Code: 1 Balance: 0
+Response: BANK: IS NOT OK. Not enough balance in bank account. Account Number: 1 Zip Code: 1 Balance: 0
+
